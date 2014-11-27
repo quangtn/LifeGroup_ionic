@@ -1,7 +1,7 @@
 #LifeGroup
 ##Objective
 
-To create a Prayer Request Software for Website and Mobile phones. Prayer Requests could be used by Churches, LifeGroups, Cell Groups, Prayer Teams etc.
+To create Group Software for the day to day management of LifeGroups(Bible Study Groups). We have the following growing list of ideas.
 
 ##Goals
 
@@ -9,41 +9,12 @@ To create a Prayer Request Software for Website and Mobile phones. Prayer Reques
 * To enable groups and users to manage sending requests
 * To setup weekly meetings
 * To Setup notifications to group members
+* Internal communication for groups
+* Sending of Themes/Topics discussions
+* Software could be run on both mobile phones and website
+* Prayer Requests could be used by Churches, LifeGroups, Cell Groups, Prayer Teams etc.
+* Emails to groups and users of groups
 
-
-##Groups (Private/Public)
-
-When a new group is created it is by default private.
-
-* The User who creates the group is the owner of the group. 
-* It is his private group which he manages. 
-* He is the administrator of the group.
-* Users can request to join a group of which they know of
-* The administrator has the right to decline without reason.
-* When declined a user will receive declined and cannot belong to that group
-* The administrator of the group can send join requests to members via email. 
-* Once the members accept they will be able to receive prayer requests send out by that groups leader.
-* The administrator can assign anyone in the group to also be administrator
-* When an administrator deiced to leave the group and if there is no other administrator the current administrator must try and assign other users as admins, with their consent.
-* He cannot just leave since someone need to be the owner of the group, and it can only be one of the administrators.
-* With email consent the other users can accept to be the owner of the group, the new owner immediately becomes the admin of that group
-* The administrator can change the group status from private to public when he should which to do so.
-* The administrator decides on the group type. The group type is assign when the group is created. See group Types below
-Any users can plan an event or meeting or prayer request, but it has to be accepted by anyone one of the administrator of the group, before the event is sent out ot everyone of that group
-NOTE * Most screens below are a list at the top and then they can add at the bottom, when they click in the list object it load the bottom or another screen which contains the details with add, edit, delete.
-
-Visibility is Private or Public, Private will always be the default especially for new groups and is only visible within the same group, outside world cannot see the group exists. Public groups are when a group is public so only the group name is visible to the world. But the admin of that public group still needs to give consent when a user requests permission to join, or when an invitation has been sent to this user for joining a particular group. 
-
-a Group must always have at least one or more admin user types. If an admin decides to leave the group and if they are the only admin user they need to first assign another user the ability to become admin. Once the other user gave connect or confirmed that they will be admin they need to fill in the user registration in full and then they will become admin. Once they are admin the other admin user can leave the group.
-
-
-Communication to and from Groups
-
-* Emails can be send to everyone in the group
-* If possible for the first release text message notification can also be sent to group members
-* Events can be planned for groups. On each event emails will be sent to group
-* For every event there should be a venue address
-Each person can setup any amount of venues.
 
 ## Home ( screen shown when user logs into app)
 The home screen will show the following fields below. When the user first downloads the app he will need to register on the new user screen. When he is already registered he will see the following fields below.
@@ -52,7 +23,6 @@ Latest news * Wagon wheel
 list of current Prayer Requests on groups in date order descending form all prayer groups this user belongs to
 
 
- 
 ## New User * (Registration, or followup for Admin)
 a User needs to register in full to use PrayerRequest, especially if he is administrator.  Only when he asks to join a group or is sent details, will he need to fill in his email address and user name, but no other fields are compulsory.  
 On This screen there will be no list at the top since the user is registering and there are to many details on the screen.
@@ -73,6 +43,42 @@ Notifications
 email (only between 08:00-20:00)
 text (SMS) (only between 10:00-14:00)
 User Type * ( see user types below, and list that in here)
+
+##Groups (Private/Public)
+
+Groups can be public or private. New groups are by default private.
+
+* The User who creates the group is the owner of the group.
+* It is his private group which he manages.
+* He is the administrator of the group.
+* Users can request to join a group of which they know of
+* The administrator has the right to decline without reason.
+* When declined a user will receive declined and cannot belong to that group
+* The administrator of the group can send join requests to members via email.
+* Once the members accept they will be able to receive prayer requests send out by that groups leader.
+* The administrator can assign anyone in the group to also be administrator
+* When an administrator deiced to leave the group and if there is no other administrator the current administrator must try and assign other users as admins, with their consent.
+* He cannot just leave since someone need to be the owner of the group, and it can only be one of the administrators.
+* With email consent the other users can accept to be the owner of the group, the new owner immediately becomes the admin of that group
+* The administrator can change the group status from private to public when he should which to do so.
+* The administrator decides on the group type. The group type is assign when the group is created. See group Types below
+Any users can plan an event or meeting or prayer request, but it has to be accepted by anyone one of the administrator of the group, before the event is sent out ot everyone of that group
+NOTE * Most screens below are a list at the top and then they can add at the bottom, when they click in the list object it load the bottom or another screen which contains the details with add, edit, delete.
+
+Visibility is Private or Public, Private will always be the default especially for new groups and is only visible within the same group, outside world cannot see the group exists. Public groups are when a group is public so only the group name is visible to the world. But the admin of that public group still needs to give consent when a user requests permission to join, or when an invitation has been sent to this user for joining a particular group.
+
+a Group must always have at least one or more admin user types. If an admin decides to leave the group and if they are the only admin user they need to first assign another user the ability to become admin. Once the other user gave connect or confirmed that they will be admin they need to fill in the user registration in full and then they will become admin. Once they are admin the other admin user can leave the group.
+
+
+Communication to and from Groups
+
+* Emails can be send to everyone in the group
+* If possible for the first release text message notification can also be sent to group members
+* Events can be planned for groups. On each event emails will be sent to group
+* For every event there should be a venue address
+Each person can setup any amount of venues.
+
+
 ## Group * (separate screen) When the user registered a new Group
 When the user has registered and he wants to create a new group. When he select this option we need to check and see if he has registered in full, he will first have to be registered and needs to be redirected to the registration screen for a New User if he hasn’t done so in the past. After that he can come back and do a new Group on this screen.
 The following fields will be listed on this screen
@@ -88,8 +94,8 @@ Note whoever registers a group will become admin automatically of that group. Ad
 The following group types can be created
 * Prayer Group
 * Church Group
-Personal circle
-Lifegroup
+* Personal circle
+* Lifegroup
 
 ## Group Lists
 Group lists are used when the user has joined a few prayer groups. In this screen you will mainly see a list of the groups you have joined. You can then select a group to see further information about that group. 
@@ -102,6 +108,7 @@ Default icon ( this icon only displays next to the default group choses, or what
 Users icon * When the user selects this icon or mini button next to the group, he will see a list of users belonging to that group. so this will take him to the ‘users list screen’.
 The user simply select a group other from the default.
 Button * Display “New Group” for user to navigate to the “Group * Screen to create a new group.
+
 ##User Types (separate screen)
 
 The following user types will exist by default. Admin can change and and add user types
@@ -149,10 +156,20 @@ Filter certain Requests
 When the user click on it he will see the Prayer Request screen but on read only mode with the details from the Prayer Request.
 ##PrayerRequest Types (separate screen)
 ##Venues (separate screen)
+
+Venues to be private or public or per usual places of meeting
+
 ##Events (separate screen)
+
+Special once of events between groups or Churches
+
 ##Meetings (separate screen)
+Meetings like Prayer Meetings etc.
+
 ## Print (Options on various screens)
+Printing of Prayer Requests for groups or Churches.
 ## Donations
+Accepting of Donations for ongoing support of software.
 
 Donation is the way the website is maintained, when churches and users feel it is worth using they should give donations for sustaining the site.
 
