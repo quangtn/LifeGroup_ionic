@@ -14,6 +14,11 @@ To create Group Software for the day to day management of LifeGroups(Bible Study
 * Software could be run on both mobile phones and website
 * Prayer Requests could be used by Churches, LifeGroups, Cell Groups, Prayer Teams etc.
 * Emails to groups and users of groups
+* Printing of lists and Requests
+* Venue management
+* Events
+* Meetings
+* Donations
 
 
 ## Home ( screen shown when user logs into app)
