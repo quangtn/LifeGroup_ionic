@@ -46,6 +46,12 @@ Run `yo gulp-angular`, optionally passing an app name:
 yo gulp-angular [app-name]
 ```
 
+### Run LifeGroup
+
+```
+ionic serve
+```
+
 ### Use Gulp tasks
 
 * `gulp` or `gulp build` to build an optimized version of your application in `/dist`
