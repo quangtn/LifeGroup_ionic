@@ -8,16 +8,27 @@
   <ion-content>
     <form ng-submit="doLogin()">
       <div class="list">
-        <label class="item item-input">
-          <span class="input-label">Username</span>
-          <input type="text" ng-model="loginData.username">
-        </label>
-        <label class="item item-input">
-          <span class="input-label">Password</span>
-          <input type="password" ng-model="loginData.password">
-        </label>
-        <label class="item">
-          <button class="button button-block button-positive" type="submit">Log in</button>
+        <div class="list list-inset">
+          <label class="item item-input">
+            <i class="icon placeholder-icon ion-android-mail"></i>
+            <input type="text" placeholder="Username" ng-model="loginData.username">
+          </label>
+        </div>
+        <div class="list list-inset">
+          <label class="item item-input">
+            <i class="icon placeholder-icon ion-key"></i>
+            <input type="text" placeholder="Password" ng-model="loginData.password">
+          </label>
+        </div>
+        <div class="row">
+          <div class="col col-33 col-offset-67">
+            <button class="button button-clear button-positive" ng-click="doForgotPassword()">
+              Forgot password ?
+            </button>
+          </div>
+        </div>
+        <label class="cols col-offset-50">
+          <button class="button button-calm button-large" type="submit">Log in</button>
         </label>
       </div>
     </form>
